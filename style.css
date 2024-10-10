@@ -1,0 +1,366 @@
+.bitcost_nav_area{
+    padding: 14px;
+}
+
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+  .witr_ds_content_inner h1,
+  .witr_ds_content_inner h2,
+  .witr_ds_content_inner p {
+    margin-bottom: 20px;
+  }
+  
+  .slider_btn .witr_btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .card {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .card p {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .col-md-6 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .col-md-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+  .elementor-container {
+    margin: auto;
+    justify-content: center;
+  }
+
+ /* General Deposit Section Styling */
+.departmentList {
+    background-color: #f7f9fc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.departmentList h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Deposit Box Styling */
+.deposit-box {
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.deposit-box p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.deposit-box strong {
+    color: #333;
+}
+
+.deposit-box input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s;
+}
+
+.deposit-box input[type="number"]:focus {
+    border-color: #ff5722;
+    outline: none;
+}
+
+/* Flexbox Styling for Deposit Actions */
+.deposit-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 15px;
+}
+
+.witr_btn {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.witr_btn:hover {
+    background-color: #e64a19;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Deposit Details Flex Item */
+.deposit-details {
+    max-width: 70%;
+    margin-left: 20px;
+    padding: 20px
+}
+
+.deposit-details p {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.deposit-details p strong {
+    font-weight: bold;
+    color: #555;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .deposit-actions {
+        flex-direction: column;
+    }
+
+    .deposit-details {
+        max-width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .deposit-box input[type="number"] {
+        padding: 8px;
+    }
+}
+/* .elementor-widget-container{
+display: flex;
+gap: 20px;
+} */
+ /* General Section Styling */
+.balance-section {
+    padding: 20px;
+    background-color: #f7f9fc;
+    margin: 80px 10px
+}
+
+.balance-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Box Styling */
+.balance-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 30%;
+    min-width: 280px; /* Ensures proper mobile scaling */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Balance Label */
+.balance-label {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+/* Balance Value */
+.balance-value {
+    font-size: 1.5rem;
+    color: #ff5722;
+    font-weight: bold;
+}
+
+/* Withdraw Button */
+.withdraw-box {
+    width: 100%;
+    text-align: center;
+}
+
+.withdraw-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #ff5722;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.withdraw-btn:hover {
+    background-color: #e64a19;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .balance-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .balance-box {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .withdraw-btn {
+        width: 100%;
+    }
+}
+
+.elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 1201px !important;
+}
+.referral-section {
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin: 80px 10px;
+}
+.referral-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+.referral-box, .reward-box, .total-referral-box {
+    flex: 1;
+    min-width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 1rem;
+    color: #666;
+}
+.copy-btn {
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.copy-btn:hover {
+    background-color: #005bb5;
+}
+
+@media (max-width: 768px) {
+    .referral-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.plan-section {
+    padding: 20px;
+    background-color: #ffffff;
+   box-shadow: 10px 10px 5px 12px lightblue;
+   margin: 80px 10px;
+}
+
+.plan-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan-box {
+    background-color: #ffffff;
+    color: #050404;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 5px 5px 5px 5px rgb(19, 10, 10);
+}
+
+.plan-box h3 {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.plan-box span {
+    font-size: 1rem;
+    color: #1d1c15;
+}
+
+.plan-box p {
+    font-size: 1.4rem;
+    margin: 10px 0 0;
+    padding: 0;
+    color: #000000;
+}
+
+@media (max-width: 768px) {
+    .plan-container {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+}
+
+.balance-container{
+    width: 80%;
+    margin: auto;
+}
+.align{
+    justify-content: center;
+    align-items: center;
+}
